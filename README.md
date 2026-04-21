@@ -22,8 +22,7 @@ The directory of dataset structure is shown as follows:
 /path/to/endovis\_data/
   dataset1/
     keyframe1/
-      left\_img/
-          000001.png
+       000001.png
 ```
 
 ## 🖼️ Evaluation
@@ -32,11 +31,11 @@ You can download our trained model for evaluation from the following link: [Goog
 
 To prepare the ground truth depth maps run:
 ```
-python export\_gt\_depth.py --data\_path <your\_data\_path> --split <your\_dataset\_type>
+python export_gt_depth.py --data_path <your_data_path> --split <your_dataset_type>
 ```
 You can evaluate a model by running the following command:
 ```
-python evaluate\_depth.py --data\_path <your\_data\_path> --load\_weights\_folder <your\_model\_path> --eval\_split <your\_dataset\_type>
+python evaluate_depth.py --data_path <your_data_path> --load_weights_folder <your_model_path> --eval_split <your_dataset_type>
 ```
 
 ## ✏️ Acknowledgement
