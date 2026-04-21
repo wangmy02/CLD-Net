@@ -28,10 +28,15 @@ keyframe1/
 ## 🖼️ Evaluation
 
 You can download our trained model for evaluation from the following link: [Google Drive(https://drive.google.com/drive/folders/1b5wOZhS6GyCGCFLEUavXlVyanIUpALyP?usp=sharing)
-To prepare the ground truth depth maps run:
-python export_gt_depth.py --data_path <your_data_path>
-You can evaluate a model by running the following command:
-python evaluate_depth.py --data_path <your_data_path> --load_weights_folder <your_model_path> --eval_split <your_dataset_type>
 
+To prepare the ground truth depth maps run:
+"
+python export_gt_depth.py --data_path <your_data_path>
+"
+
+You can evaluate a model by running the following command:
+"
+python evaluate_depth.py --data_path <your_data_path> --load_weights_folder <your_model_path> --eval_split <your_dataset_type>
+"
 ## ✏️ Acknowledgement
 Our code is based on the implementation of AF-SfMLearner and Monodepth2. We thank these authors for their excellent work and repository.
