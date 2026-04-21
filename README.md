@@ -40,4 +40,4 @@ python evaluate\_depth.py --data\_path <your\_data\_path> --load\_weights\_folde
 ```
 
 ## ✏️ Acknowledgement
-Our code is based on the implementation of AF-SfMLearner and Monodepth2. We thank these authors for their excellent work and repository.
+Our code is based on the implementation of [AF-SfMLearner](https://github.com/ShuweiShao/AF-SfMLearner.git) and Monodepth2. We thank these authors for their excellent work and repository.
