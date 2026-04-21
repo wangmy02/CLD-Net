@@ -28,7 +28,7 @@ The directory of dataset structure is shown as follows:
 
 ## 🖼️ Evaluation
 
-You can download our trained model for evaluation from the following link: Google Drive(https://drive.google.com/drive/folders/1b5wOZhS6GyCGCFLEUavXlVyanIUpALyP?usp=sharing)
+You can download our trained model for evaluation from the following link: [Google Drive](https://drive.google.com/drive/folders/1b5wOZhS6GyCGCFLEUavXlVyanIUpALyP?usp=sharing)
 
 To prepare the ground truth depth maps run:
 ```
