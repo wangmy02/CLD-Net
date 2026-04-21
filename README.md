@@ -18,12 +18,13 @@ You can download the [SCARED](https://doi.org/10.57702/4chdgahp) dataset by sign
 The train/test/validation split for Endovis dataset used in our works is defined in the  `splits/endovis`  folder.
 ### Data structure
 The directory of dataset structure is shown as follows:
+"
 /path/to/scared_data/
 dataset1/
 keyframe1/
 000001.png
 ...
-
+"
 ## 🖼️ Evaluation
 
 You can download our trained model for evaluation from the following link: [Google Drive(https://drive.google.com/drive/folders/1b5wOZhS6GyCGCFLEUavXlVyanIUpALyP?usp=sharing)
