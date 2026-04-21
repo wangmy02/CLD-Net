@@ -16,14 +16,15 @@ We ran our experiments with PyTorch 1.11.0, CUDA 11.2, Python 3.8 and Ubuntu 18.
 You can download the [SCARED](https://doi.org/10.57702/4chdgahp) dataset by signing the challenge rules and emailing to max.allan@intusurg.com, you can download the Hamlyn dataset from [https://hamlyn.doc.ic.ac.uk/vision/](https://hamlyn.doc.ic.ac.uk/vision/).
 ###Endovis split
 The train/test/validation split for Endovis dataset used in our works is defined in the  `splits/endovis`  folder.
-Data structure
+### Data structure
 The directory of dataset structure is shown as follows:
-```
-/path/to/endovis\_data/
-  dataset1/
-    keyframe1/
-          000001.png
-```
+/path/to/scared_data/
+dataset1/
+keyframe1/
+left_img/
+000000.png
+000001.png
+...
 
 ## 🖼️ Evaluation
 
