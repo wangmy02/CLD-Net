@@ -13,7 +13,7 @@ This is the official PyTorch implementation for evaluating depth estimation mode
 We ran our experiments with PyTorch 1.11.0, CUDA 11.2, Python 3.8 and Ubuntu 18.04.
 
 ## 💾 Datasets
-You can download the [SCARED](https://doi.org/10.57702/4chdgahp) dataset by signing the challenge rules and emailing to max.allan@intusurg.com, you can download the Hamlyn dataset from [https://hamlyn.doc.ic.ac.uk/vision/](https://hamlyn.doc.ic.ac.uk/vision/).
+You can download the [SCARED](https://arxiv.org/abs/2101.01133) dataset by signing the challenge rules and emailing to max.allan@intusurg.com, you can download the Hamlyn dataset from [https://hamlyn.doc.ic.ac.uk/vision/](https://hamlyn.doc.ic.ac.uk/vision/).
 ### Endovis split
 The train/test/validation split for Endovis dataset used in our works is defined in the  `splits/endovis`  folder.
 ### Data structure
